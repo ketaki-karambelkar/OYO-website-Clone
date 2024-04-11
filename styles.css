@@ -1,0 +1,387 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+#navbar
+{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    cursor: pointer;
+    /* width: 100%;
+    position:fixed; */
+    background-color: white;
+}
+#logo
+{
+    background-image: url("logo.png");
+    background-size:contain;
+    width: 6rem;
+    height: 5rem;
+    margin-left: 5.7rem;
+}
+#nav-elements
+{
+    display: flex;
+    margin-right: 4.7rem;
+}
+.box
+{
+    border-right: 1px solid #eee;
+    padding-left:1.6rem;
+    padding-right:1.5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.img-icon
+{
+    width: 1.8rem;
+    height: 1.8rem;
+    grid-row: 1 / span 2;
+    align-self: center;
+    padding-right: 0.7rem;
+}
+.line1
+{
+    font-weight: 600;
+    align-content:end;
+}
+.line2
+{
+    font-size: 0.86rem;
+    color: rgb(0, 0, 0, .54);
+    align-content: top;
+}
+.option1
+{
+    font-weight: 600;
+    grid-row: 1 / span 2;
+    align-self: center;
+    border: none;
+    outline: none;
+}
+
+#citybar
+{
+    background-color: #f3f5f7;
+    height:2.85rem;
+    display: flex;
+    justify-content: space-between;
+    padding:0 7.15rem;
+    border-top: 2px solid rgba(0, 0, 0, .05);
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+.cities
+{
+    background-color: #f3f5f7;
+    color: #000000B3;
+    align-self: center;
+    font-size: 1rem;
+    margin-right: 0.7rem;
+    border: none;
+    outline: none;
+}
+
+#img-one
+{
+    background-image: url("one.png");
+    background-size:cover;
+    height:18.5rem;
+    display: grid;
+    justify-content: center;
+    align-content:baseline;
+    grid-template-areas:
+    'h1 h1 h1 h1'
+    'search calender text search-btn'
+    'continue continue continue continue';
+
+}
+h1
+{
+    font-size: 2.3rem;
+    color: white;
+    /* margin:1.14rem 0; */
+    grid-area: h1;
+    padding-top:38px;
+    padding-bottom: 19px;
+    text-align: center;
+}
+#search
+{
+    /* height:96px;
+    width: 564px; */
+    height:58px;
+    width: 437px;
+    color: #000000DE;
+    font-size: 16px;
+    font-weight: 600;
+    padding:19px 112px 19px 16px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+    border-right:0.8px solid grey;
+    outline:none;
+    grid-area: search;
+}
+#search::placeholder
+{
+    color:grey;
+    font-weight: 400;
+}
+#calender
+{
+    height:58px;
+    width: 254px;
+    padding-left:19px;
+    color: #000000DE;
+    font-size: 16px;
+    font-weight: 600;
+    border:none;
+    border-right:0.8px solid grey;
+    outline:none;
+    grid-area: calender;
+}
+#text
+{
+    height:58px;
+    width: 229px;
+    padding-left:16px;
+    font-size: 16px;
+    color: #000000DE;
+    font-weight: 600;
+    border:none;
+    outline:none;
+    grid-area: text;
+}
+#search-btn
+{
+    background-color:#1ab64f;
+    color:white;
+    height:58px;
+    width: 165px;
+    font-size: 18px;
+    font-weight: bold;
+    border:none;
+    outline:none;
+    grid-area: search-btn;
+    cursor: pointer;
+}
+#continue
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-top: 34px;
+    grid-area: continue;
+}
+div #cities
+{
+    margin:20px;
+    padding:10px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+#images
+{
+    margin:48px 0px;
+    padding: 0px 80px;
+}
+#img-two
+{
+    background-image: url("two");
+    background-size:cover;
+    height:21rem;
+    margin-bottom:66px;
+    border-radius: 4px;
+}
+#img-three
+{
+    background-image: url("three");
+    background-size:cover;
+    height:10rem;
+    border-radius: 4px;
+    margin-bottom:56px;
+}
+
+#deals
+{
+    height:100px;
+    border: 0.5px solid rgb(222, 222, 222);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+#fire-img
+{
+    padding:20px;
+}
+#deal-line1
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:10px;
+    padding-right:390px;
+}
+#deal-line2
+{
+    font-size: 16px;
+    color:#00000080;
+    font-weight: 500;
+    padding-left:10px;
+}
+#email
+{
+    width:328px;
+    height: 47px;
+    font-size: 16px;
+    padding-left: 10px;
+    border:0.5px solid rgb(222, 222, 222);
+    border-radius: 5px;
+    outline:none;
+}
+#email::placeholder
+{
+    color:rgb(179, 179, 179);
+}
+#email-btn
+{
+    width:140px;
+    height: 47px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ee2a24;
+    color:white;
+    text-align: center;
+    margin-left: 16px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+
+#map
+{
+    height:495px;
+    background-color: #f3f5f7;
+    padding-left:20px;
+    display: flex;
+    align-items: center;
+}
+#map-content
+{
+    margin-left:70px;
+}
+#line-no1
+{
+    font-size: 26px;
+    font-weight: bold;
+    color: #333333;
+    padding-top:15px;
+    padding-bottom:30px;
+}
+#line-no2
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000b3;
+    padding-bottom:34px;
+}
+
+#line-no3
+{
+    display: flex;
+}
+#line
+{
+    border:0.05px solid rgb(194, 194, 194);
+    margin-left:20px;
+    margin-right: 30px;
+    transform: skewX(-30deg);
+}
+.l1
+{
+    font-size: 32px;
+    font-weight: 600;
+    margin-right:20px;
+}
+.l2
+{
+    font-size: 14px;
+    color:grey;
+}
+
+ul
+{
+    display: grid;
+    padding-top: 54px;
+    padding-left: 20px;
+    justify-content: center;
+    grid-template-areas:'li li li'
+}
+li
+{
+    width:220px;
+    height:60px;
+}
+li::marker
+{
+    font-size: 24px;
+}
+li span
+{
+    color: rgba(0, 0, 0, .7);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#footer1
+{
+    background-color: #6d787d;
+    color:white;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+#foot1-part1
+{
+    width: 7rem;
+    height: 3rem;
+    margin-left:70px;
+}
+#foot1-part2
+{
+    font-weight: bold;
+    font-size: 22px;
+}
+#foot1-part3
+{
+    height: 48px;
+    width: 170px;
+    background-color: white;
+    border-radius: 4px;
+    color: #6f787c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:70px;
+}
+
+#footer2
+{
+    background-color: #6d787d;
+    color:rgb(194, 194, 194);
+    height:50px;
+    font-size: 12px;
+    font-weight: 800;
+    align-content: center;
+    text-align: end;
+    padding-right: 70px;
+}
