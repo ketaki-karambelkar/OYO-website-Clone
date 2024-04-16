@@ -1,6 +1,6 @@
 # OYO-website-Clone
-This is the clone of homepage of OYO website using HTML and CSS.
-Find below the Screenshot of the Clone website.
+- This is the clone of homepage of OYO website using HTML and CSS.
+- Find below the Screenshot of the Clone.
 
 ![Screenshot 1](https://github.com/ketaki-karambelkar/OYO-website-Clone/assets/156402972/f038f00f-6a05-44a4-9f24-f2ee2e08b18e)
 
